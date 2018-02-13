@@ -7,10 +7,10 @@ public interface OtherInter extends BasicInter {
     default void overridenMethod(String s)
     {
         System.out.println("default implementation other");
-//        privInterMethod();
+        privInterMethod();
     }
 
-//    private void privInterMethod() {
-//        System.out.println("im a private interface method");
-//    }
+    private void privInterMethod() {
+        System.out.println("im a private interface method");
+    }
 }
